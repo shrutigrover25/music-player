@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Qahiri&display=swap');
+
+body{
+    background-color:lightskyblue;
+}
+
+*
+{
+    margin:0%;
+    padding: 0;
+}
+
+nav{
+font-family:'ubuntu',sans-serif;
+
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color:rgb(62, 6, 107);
+    color:white
+}
+
+nav ul li{
+    padding:0 12px;
+}
+
+.brand img{
+    width:68px;
+    height:55px;
+    padding:0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+
+#container{
+    min-height: 72vh;
+    background-color:rgb(129, 66, 66);
+    color:rgb(28, 124, 184);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    margin:23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url("https://image.freepik.com/free-vector/glowing-musical-pentagram-background-with-sound-notes_1017-31220.jpg");
+    
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    color:white;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 12px;
+    font-size: x-large;
+}
+
+.icons i{
+    cursor:pointer
+}
+
+#myprogress{
+   width: 80vw;
+   cursor:pointer;
+}
+.singitemcont{
+    margin-top: 72px;;
+}
+.songitem{
+    height:50px;
+    display:flex;
+    background-color: white;
+    color:black;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+}
+
+.songitem img{
+    width:50px;
+    margin:0 23px;
+    height: 50px;
+    border-radius: 6px;
+    border-color: black;
+
+    
+}
+
+.time{
+    margin:0 23px;
+}
+
+
+.time i{
+    cursor:pointer;
+}
+
+.songinfo{
+    position:absolute;
+    left:10vw;
+    
+    font-family: 'Varela Round', Courier, monospace;
+    font-weight: bolder;
+}
+
+.songinfo img{
+    margin-top: 34px;
+    height: 34px;
+    width: 50px;
+    opacity:1;
+    transition: opacity 0.5s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Qahiri&display=swap');
+
+body{
+    background-color:lightskyblue;
+}
+
+*
+{
+    margin:0%;
+    padding: 0;
+}
+
+nav{
+font-family:'ubuntu',sans-serif;
+
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background-color:rgb(62, 6, 107);
+    color:white
+}
+
+nav ul li{
+    padding:0 12px;
+}
+
+.brand img{
+    width:68px;
+    height:55px;
+    padding:0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.back{
+    min-height: 80vh;
+    background-color:rgb(129, 66, 66);
+    color:rgb(160, 4, 4);
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    margin:23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url("https://static7.depositphotos.com/1222693/736/i/950/depositphotos_7361476-stock-photo-dirty-music-background.jpg");
+    
+}
+
+
+.about{
+    text-align:center;
+    min-height: 50px;
+}
+
+.para{
+    color:black;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: cursive;
+    margin:auto;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+.volume{
+    color:brown;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-right:90px;
+    margin-top: 34px;
+    background-color: lightyellow;
+    
+}
+
+.image{
+    padding: 4px;
+    border-color: black;
+}
+
+.tag{
+    font-size:xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    color: mediumblue;
+    margin-top:34px;
+    background-color: mistyrose;
+    font-family: cursive;
+}

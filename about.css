@@ -1,0 +1,13 @@
+#about{
+    min-height: 72vh;
+    background-color:rgb(129, 66, 66);
+    color:#a8fa87 bisque;
+    font-family: 'Varela Round',sans-serif;
+    display: flex;
+    margin:23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url(https://image.shutterstock.com/image-vector/vector-set-realistic-isolated-neon-260nw-1192029745.jpg);
+    
+}
